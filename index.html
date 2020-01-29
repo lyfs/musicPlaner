@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <title>fly beats</title>
+    <link href="beauty.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="mainPage">
+        <div id="musicPic">
+            <img id="picContent"></img>
+        </div>
+        <div id="btnBord">
+            <div id="musicControl">
+                <div id="last" class="btn">上一曲</div>
+                <div id="screenBorder">
+                    <div id="screen"></div>
+                    <div id="controlLight"></div>
+                </div>
+                <div id="next" class="btn">下一曲</div>
+
+            </div>
+            <div class="splitLine"></div>
+            <div id="beatsControl" class="container">
+                <div class="titleBar">频率</div>
+                <input id="beats" type="range" min="0" max="240" value="0" />
+                <div class="valBar">0</div>
+                <div class="beautyNum"></div>
+            </div>
+
+            <div id="voiceControl" class="container">
+                <div class="titleBar">音量</div>
+                <input id="voice" type="range" min="0" max="100" value="0" />
+                <div class="valBar">0</div>
+                <div class="beautyNum"></div>
+            </div>
+
+            <div class="splitLine"></div>
+            <div id="trumpControl" class="container">
+                <div class="titleBar">乐器</div>
+                <div class="trump">笛子</div>
+                <div class="trump">钢琴</div>
+                <div class="trump">吉他</div>
+                <div class="trump">唢呐</div>
+                <div class="trump">小提琴</div>
+                <div class="trump">架子鼓</div>
+            </div>
+
+
+            <div class="splitLine"></div>
+            <div id="timeControl" class="container">
+                <div class="titleBar">练习时常</div>
+                <div class="timeBlock">
+                    <div id="hour" class="valBar">0</div>
+                    <div class="beautyNum"></div>
+                </div>
+                <div class="timeTxt">时</div>
+                <div class="timeBlock">
+                    <div id="minute" class="valBar">0</div>
+                    <div class="beautyNum"></div>
+                </div>
+                <div class="timeTxt">分</div>
+                <div class="timeBlock">
+                    <div id="second" class="valBar">0</div>
+                    <div class="beautyNum"></div>
+                </div>
+                <div class="timeTxt">秒</div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+<script src="main.js"></script>
+
+</html>
